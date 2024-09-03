@@ -1,14 +1,14 @@
-### study-of-basic-gates
+### EX01-study-of-basic-gates
 
-**AIM:** 
+## AIM: 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
-**Equipments Required:**
+## **Equipments Required:**
 
 Software – Quartus prime 
 
-**Theory**
+## **Theory**
 
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
@@ -49,7 +49,7 @@ Y= A⊕B
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-**Procedure** 
+## **Procedure** 
 
 1.	Type the program in Quartus software.
 
@@ -62,18 +62,41 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+## **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+Developed by: Bharathganesh S
+RegisterNumber: 212222230022
+```
+```
+module logicgates(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
+```
 
- Developed by: RegisterNumber: 
- 
-**Logic symbol & Truthtable**
 
 **RTL realization Output:** 
 
+
+![Screenshot 2024-08-30 143721](https://github.com/user-attachments/assets/fb26487b-7829-4fd0-ad23-bf7842cc4323)
+
+
 **RTL**
 
-**Result:**
+
+![Screenshot 2024-08-30 143849](https://github.com/user-attachments/assets/95f91a50-a1af-43d1-8361-6e88a9980376)
+
+
+## **Result:**
+The basic digital IC’s and verification of truth tables for different logic gates output found successfully
 
 
