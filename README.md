@@ -1,4 +1,4 @@
-### EX01-study-of-basic-gates
+## EX01-study-of-basic-gates
 
 ## AIM: 
 
@@ -84,13 +84,13 @@ endmodule
 ```
 
 
-**RTL realization Output:** 
+## **RTL realization Output:** 
 
 
 ![Screenshot 2024-08-30 143721](https://github.com/user-attachments/assets/fb26487b-7829-4fd0-ad23-bf7842cc4323)
 
 
-**RTL**
+## **RTL**
 
 
 ![Screenshot 2024-08-30 143849](https://github.com/user-attachments/assets/95f91a50-a1af-43d1-8361-6e88a9980376)
